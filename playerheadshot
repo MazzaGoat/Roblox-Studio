@@ -1,0 +1,4 @@
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local imagelabel = script.Parent
+imagelabel.Image = Players:GetUserThumbnailAsync(player.UserId,Enum.ThumbnailType.HeadShot,Enum.ThumbnailSize.Size420x420)
